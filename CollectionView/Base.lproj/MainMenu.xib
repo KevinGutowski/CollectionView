@@ -689,17 +689,6 @@
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
-                <subviews>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="zxN-8I-AXv">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
-                    </customView>
-                </subviews>
-                <constraints>
-                    <constraint firstItem="zxN-8I-AXv" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="Vv7-kH-kV0"/>
-                    <constraint firstItem="zxN-8I-AXv" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="bBl-9e-s6I"/>
-                    <constraint firstAttribute="bottom" secondItem="zxN-8I-AXv" secondAttribute="bottom" id="hTh-aR-Zdb"/>
-                    <constraint firstAttribute="trailing" secondItem="zxN-8I-AXv" secondAttribute="trailing" id="utk-vk-uya"/>
-                </constraints>
             </view>
             <point key="canvasLocation" x="139" y="-120"/>
         </window>

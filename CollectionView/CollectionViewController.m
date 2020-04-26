@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
+	[_collectionView registerClass:[CollectionViewItem class] forItemWithIdentifier:@"CollectionViewItemReuseIdentifier"];
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(NSCollectionView *)collectionView {
